@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, How can I help you today",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "appointment-1",
+      "patterns": [
+        "I want to book an appointment",
+        "I want to make an appointment",
+        "appointment"
+      ],
+      "responses": [
+        "What is your Health ID?"
+      ]
+    },
+    {
+      "tag": "response-ID",
+      "patterns": [
+        "0000",
+        "123456789"
+      ],
+      "responses": [
+        "Thanks. Do you want to book a closest one or book with further time"
+      ]
+    },
+    {
+      "tag": "appointment-2.1",
+      "patterns": [
+        "I want the closest one",
+        "closest",
+        "closest one"
+      ],
+      "responses": [
+        "The closest appointment will be tommorrow at 9 a.m.",
+        "The closest appointment will be tommorrow at 10 a.m.",
+        "The closest appointment will be tommorrow at 11 a.m.",
+        "The closest appointment will be tommorrow at 12 p.m.",
+        "The closest appointment will be tommorrow at 1 p.m.",
+        "The closest appointment will be tommorrow at 2 p.m.",
+        "The closest appointment will be tommorrow at 3 p.m.",
+        "The closest appointment will be tommorrow at 4 p.m.",
+        "The closest appointment will be tommorrow at 5 p.m."
+      ]
+    },
+    {
+      "tag": "appointment-2.2",
+      "patterns": [
+        "The second one"
+      ],
+      "responses": [
+        "How about tomorrow at 9 a.m.",
+        "How about next Monday at 10 a.m.",
+        "How about next Tuesday at 10 a.m.",
+        "How about next Wednesday at 10 a.m."
+      ]
+    },
+    {
+      "tag": "response-time",
+      "patterns": [
+        "1",
+        "2"
+      ],
+      "responses": [
+        "Thank you for the information. Do you have other concerns?"
+      ]
+    },
+    {
+      "tag": "agree",
+      "patterns": [
+        "yes"
+      ],
+      "responses": [
+        "What is your concerns."
+      ]
+    },
+    {
+      "tag": "disagree",
+      "patterns": [
+        "no"
+      ],
+      "responses": [
+        "Thank you for using."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
